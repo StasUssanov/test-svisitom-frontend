@@ -1,0 +1,18 @@
+{
+  "label": {
+    "loading": "Loading",
+    "homePage": "Home page"
+  },
+  "button": {
+    "create": "Create",
+    "update": "Update",
+    "save": "Save",
+    "reset": "Reset",
+    "delete": "Delete",
+    "cancel": "Cancel"
+  },
+  "message": {
+    "username": "Пожалуйста, введите имя пользователя!",
+    "password": "Пожалуйста, введите пароль!"
+  }
+}
