@@ -17,10 +17,24 @@ export enum AxiosError {
   ETIMEDOUT = 'ETIMEDOUT',
 }
 
-type TGraphqlQueryVariableParams = {
-  [p: string]: string | number | boolean | null | undefined;
-};
+export type TCommon = {
+  status: string;
+}
 
-export type TGraphqlQueryVariables = {
-  [p: string]: TGraphqlQueryVariableParams | TGraphqlQueryVariableParams[] | undefined;
+export type TSignUp = {
+  signUp: TCommon & {
+    accessToken?: string;
+    refreshToken?: string;
+  }
+}
+
+export type TSignIn = {
+  signIn: TCommon & {
+    accessToken?: string;
+    refreshToken?: string;
+  }
+}
+
+export type TSignOut = {
+  signOut: TCommon;
 }
