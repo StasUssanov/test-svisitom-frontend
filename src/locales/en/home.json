@@ -1,0 +1,22 @@
+{
+  "label": {
+    "serialNumber": "Number",
+    "name": "Name",
+    "date": "Date",
+    "status": "Status",
+    "toggle-status": "Toggle status",
+    "power-on": "Power on",
+    "power-off": "Power off"
+  },
+  "button": {
+    "power-on": "$t(label.power-on)",
+    "power-off": "$t(label.power-off)"
+  },
+  "message": {
+    "min": "Title too short",
+    "statusChanged": "Item changed",
+    "STATUS_SERIAL_NUMBER_BUSY": "Serial number busy",
+    "STATUS_NAME_BUSY": "Name busy",
+    "STATUS_NOT_FOUND": "Item not found"
+  }
+}
