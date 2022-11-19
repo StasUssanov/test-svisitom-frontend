@@ -1,0 +1,22 @@
+{
+  "label": {
+    "serialNumber": "Номер",
+    "name": "Название",
+    "date": "Дата",
+    "status": "Статус",
+    "toggle-status": "Переключить статус",
+    "power-on": "Включено",
+    "power-off": "Выключено"
+  },
+  "button": {
+    "power-on": "$t(label.power-on)",
+    "power-off": "$t(label.power-off)"
+  },
+  "message": {
+    "min": "Слишком короткое название",
+    "statusChanged": "Элемент изменен",
+    "STATUS_SERIAL_NUMBER_BUSY": "Серийный номер занят",
+    "STATUS_NAME_BUSY": "Имя занято",
+    "STATUS_NOT_FOUND": "Элемент не найден"
+  }
+}
