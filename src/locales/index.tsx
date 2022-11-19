@@ -7,15 +7,18 @@ import commonEN from './en/common.json';
 import commonRU from './ru/common.json';
 import navigationRU from './ru/navigation.json';
 import navigationEN from './en/navigation.json';
-import navigationRU from './ru/navigation.json';
+import authRU from '__root/locales/ru/auth.json';
+import authEN from '__root/locales/en/auth.json';
 
 const option: InitOptions = {
   resources: {
     ru: {
+      auth: authRU,
       common: commonRU,
       navigation: navigationRU,
     },
     en: {
+      auth: authEN,
       common: commonEN,
       navigation: navigationEN,
     },

@@ -95,3 +95,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+.graphqlconfig
+schema.graphql

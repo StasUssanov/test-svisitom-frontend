@@ -1,0 +1,27 @@
+.sv-auth-page {
+
+  .sv-layout__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 200px;
+  }
+
+  .sv-card {
+    min-width: 500px;
+    box-shadow: var(--sv-box-shadow-base);
+  }
+
+  &__modal_footer {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    & .sv-locale-selector {
+      position: absolute;
+      right: 0;
+    }
+  }
+}
+
